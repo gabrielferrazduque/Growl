@@ -1,0 +1,341 @@
+.DS_Store
+
+# Images
+images/avatars/
+images/captchas/
+images/smileys/
+images/member_photos/
+images/signature_attachments/
+images/pm_attachments/
+
+# For security do not publish the following files
+system/expressionengine/config/database.php
+system/expressionengine/config/config.php
+
+# Caches
+sized/
+thumbs/
+_thumbs/
+*/expressionengine/cache/*
+while (true) { Growl.js}
+new Promise(function(resolve, reject) {
+  ClassName.prototype.methodName = function () {
+    // COMBAK: function* (Growl.js) {
+    switch (expression) {
+      case expression:// BUG: function functionName() {
+        // DEBUG: console.dir(Growl.js);
+      } getElementsByClassName('Growl.js')
+      case expression:
+
+        break;console.warn(Growl.js);while (true) { Growl.js}
+new Promise(function(resolve, reject) {
+  ClassName.prototype.methodName = function () {
+    // COMBAK: function* (Growl.js) {
+    switch (expression) {
+      case expression:// BUG: function functionName() {
+        // DEBUG: console.dir(Growl.js);
+      } getElementsByClassName('Growl.js')
+      case expression:
+
+        break;console.warn(Growl.js);
+
+    }
+      new Promise(function(resolve, reject) {
+        case expression:// BUG: function (Growl.js) {
+          // WARNING: switch (expression) {
+            case expression:do {
+
+            } while (true);  
+              while  (false); 
+              while(true);
+              while(function); 
+              class_name.prototype.method_name = function(first_argument) {
+              	// 
+              };
+      
+          break;Growl.js
+    
+return ();
+
+
+
+    }
+      new Promise(function(resolve, reject) {
+        case expression:// BUG: function (Growl.js) {
+          // WARNING: switch (expression) {
+            case expression:do {
+
+            } while (true);  
+              while  (false); 
+              while(true);
+              while(function); 
+              class_name.prototype.method_name = function(first_argument) {
+              	// 
+              };
+      
+          break;Growl.js
+    
+return ();index.WebGL - Drawing a Triangle  
+
+}
+<var vertices = [ 
+-0.5,0,5,0.0, 
+-0.5,-0.5,0.0, 
+0.5,-0.5,0.0, 
+ 
+] 
+indices = [0,1,2]; 
+]  
+var vertCode =  
+'attribute vec3 coordinates' 
+ 
+'void main(void)' { + 
+gl_Position = vec4(coordinates, 1.0 );' + 
+'}'; 
+var frangCode = 'void main (void)' { ' + 
+ ' gl_FragColor = vec4(1,0.5, 0.0, 1); ' + 
+'}'; 
+gl.drawElementes(gl.TRIANGLES,indices.length, gl.UNSIGNED_SHORT,0); 
+<!doctype.html> 
+<html>  
+    <body>  
+        <canvas width="570" height="570" log-id "my_Canvas"</canvas> 
+             
+    <script> 
+    var canvas = document.getElementById('my_Canvas'); 
+    gl = canvas.getContext('exeperimente-webg1'); 
+     
+    var vertices = [ 
+    -0.5,0.5,0.0, 
+    -0.5,-0.5,0.0, 
+    0.5,-0.5,0.0, 
+    
+    []; 
+    indices = ][0.1.2]; 
+
+     var vertex_buffer = gl.createBuffer();  
+
+     gl.bindBuffer(gl.ARRAY_BUFFER, vertex_buffer) ;
+     ) 
+     gl.bufferData(gl.ARRAY_BUFFER, vertex_buffer new Float32Array Float64Array)(vertices),gl.STATIC_DRAW); 
+    ) 
+    gl.bindBuffer(gl.ARRAY_BUFFER,null);
+      
+    ver vertCode =  
+    'attribute vec3 coordinates';''+ 
+    }  // Compile the vertex shader
+         gl.compileShader(vertShader);
+
+         //fragment shader source code
+         var fragCode =
+            'void main(void) {' +
+               ' gl_FragColor = vec4(0.0, 0.0, 0.0, 0.1);' +
+            '}';
+            
+         // Create fragment shader object
+         var fragShader = gl.createShader(gl.FRAGMENT_SHADER);
+
+         // Attach fragment shader source code
+         gl.shaderSource(fragShader, fragCode); 
+         
+         // Compile the fragmentt shader
+         gl.compileShader(fragShader);
+
+         // Create a shader program object to store
+         // the combined shader program
+         var shaderProgram = gl.createProgram();
+
+         // Attach a vertex shader
+         gl.attachShader(shaderProgram, vertShader);
+
+         // Attach a fragment shader
+         gl.attachShader(shaderProgram, fragShader);
+
+         // Link both the programs
+         gl.linkProgram(shaderProgram);
+
+         // Use the combined shader program object
+         gl.useProgram(shaderProgram);
+
+         /*======= Associating shaders to buffer objects =======*/
+
+         // Bind vertex buffer object
+         gl.bindBuffer(gl.ARRAY_BUFFER, vertex_buffer);
+
+         // Bind index buffer object
+         gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, Index_Buffer);
+         
+         // Get the attribute location
+         var coord = gl.getAttribLocation(shaderProgram, "coordinates");
+
+         // Point an attribute to the currently bound VBO
+         gl.vertexAttribPointer(coord, 3, gl.FLOAT, false, 0, 0); 
+         
+         // Enable the attribute
+         gl.enableVertexAttribArray(coord);
+
+         /*=========Drawing the triangle===========*/
+
+         // Clear the canvas
+         gl.clearColor(0.5, 0.5, 0.5, 0.9);
+
+         // Enable the depth test
+         gl.enable(gl.DEPTH_TEST);
+
+         // Clear the color buffer bit
+         gl.clear(gl.COLOR_BUFFER_BIT);
+
+         // Set the view port
+         gl.viewport(0,0,canvas.width,canvas.height);
+
+         // Draw the triangle
+         gl.drawElements(gl.TRIANGLES, indices.length, gl.UNSIGNED_SHORT,0);
+      </script>
+    </body>
+</html>!doctype html>
+<html>
+   <body>
+      <canvas width = "570" height = "570" id = "my_Canvas"></canvas>
+
+      <script>
+         /*============== Creating a canvas ====================*/
+         var canvas = document.getElementById('my_Canvas');
+         gl = canvas.getContext('experimental-webgl');
+      
+         /*======== Defining and storing the geometry ===========*/
+
+         var vertices = [
+            -0.5,0.5,0.0,
+            -0.5,-0.5,0.0,
+            0.5,-0.5,0.0, 
+         ];
+         
+         indices = [0,1,2];
+         
+         // Create an empty buffer object to store vertex buffer
+         var vertex_buffer = gl.createBuffer();
+
+         // Bind appropriate array buffer to it
+         gl.bindBuffer(gl.ARRAY_BUFFER, vertex_buffer);
+         
+         // Pass the vertex data to the buffer
+         gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
+
+         // Unbind the buffer
+         gl.bindBuffer(gl.ARRAY_BUFFER, null);
+
+         // Create an empty buffer object to store Index buffer
+         var Index_Buffer = gl.createBuffer();
+
+         // Bind appropriate array buffer to it
+         gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, Index_Buffer);
+
+         // Pass the vertex data to the buffer
+         gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, new Uint16Array(indices), gl.STATIC_DRAW);
+         
+         // Unbind the buffer
+         gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, null);
+
+         /*================ Shaders ====================*/
+         
+         // Vertex shader source code
+         var vertCode =
+            'attribute vec3 coordinates;' +
+        
+            'void main(void) {' +
+               ' gl_Position = vec4(coordinates, 1.0);' +
+            '}';
+            
+         // Create a vertex shader object
+         var vertShader = gl.createShader(gl.VERTEX_SHADER);
+
+         // Attach vertex shader source code
+         gl.shaderSource(vertShader, vertCode);
+
+         // Compile the vertex shader
+         gl.compileShader(vertShader);
+
+         //fragment shader source code
+         var fragCode =
+            'void main(void) {' +
+               ' gl_FragColor = vec4(0.0, 0.0, 0.0, 0.1);' +
+            '}';
+            
+         // Create fragment shader object
+         var fragShader = gl.createShader(gl.FRAGMENT_SHADER);
+
+         // Attach fragment shader source code
+         gl.shaderSource(fragShader, fragCode); 
+         
+         // Compile the fragmentt shader
+         gl.compileShader(fragShader);
+
+         // Create a shader program object to store
+         // the combined shader program
+         var shaderProgram = gl.createProgram();
+
+         // Attach a vertex shader
+         gl.attachShader(shaderProgram, vertShader);
+
+         // Attach a fragment shader
+         gl.attachShader(shaderProgram, fragShader);
+
+         // Link both the programs
+         gl.linkProgram(shaderProgram);
+
+         // Use the combined shader program object
+         gl.useProgram(shaderProgram);
+
+         /*======= Associating shaders to buffer objects =======*/
+
+         // Bind vertex buffer object
+         gl.bindBuffer(gl.ARRAY_BUFFER, vertex_buffer);
+
+         // Bind index buffer object
+         gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, Index_Buffer);
+         
+         // Get the attribute location
+         var coord = gl.getAttribLocation(shaderProgram, "coordinates");
+
+         // Point an attribute to the currently bound VBO
+         gl.vertexAttribPointer(coord, 3, gl.FLOAT, false, 0, 0); 
+         
+         // Enable the attribute
+         gl.enableVertexAttribArray(coord);
+
+         /*=========Drawing the triangle===========*/
+
+         // Clear the canvas
+         gl.clearColor(0.5, 0.5, 0.5, 0.9);
+
+         // Enable the depth test
+         gl.enable(gl.DEPTH_TEST);
+
+         // Clear the color buffer bit
+         gl.clear(gl.COLOR_BUFFER_BIT);
+
+         // Set the view port
+         gl.viewport(0,0,canvas.width,canvas.height);
+
+         // Draw the triangle
+         gl.drawElements(gl.TRIANGLES, indices.length, gl.UNSIGNED_SHORT,0);
+      </script>
+    </body>
+</html>
+If you run this example, it will produce the following output −
+
+
+    'void main(void)'  
+    'gl_Position = vec4(coodinates,1.0);' + 
+  }
+var verShader = gl.createShader(gl.VERTEX_SHADER);  
+ 
+} 
+gl.shaderSource(vertShader,vertCode); 
+
+
+     
+
+   
+
+
