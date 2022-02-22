@@ -1,4 +1,5 @@
- systemunixMacOS.c++
+ systemunixMacOS.c++ 
+  macOS 
 ();
 seq( data();, to, by source( systemunixMacOS, chdir = TRUE));
 attach( sort(x,y));
@@ -7,7 +8,7 @@ for (,x,y in seq); {}
 function(,x,y); {}
 template true while ();
 case 
- case macOS
+ case macOS 
   char
   static_assert
 #pragma clang diagnostic push
