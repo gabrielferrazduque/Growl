@@ -8,7 +8,8 @@ new Promise(function(resolve, reject) {
         // DEBUG: console.dir(Growl.js);
       } getElementsByClassName('Growl.js')
       case expression:
-
+code 
+code
         break;console.warn(Growl.js);while (true) { Growl.js}
 new Promise(function(resolve, reject) {
   ClassName.prototype.methodName = function () {
